@@ -1,3 +1,5 @@
+import { testimonials_home } from "../../../../mock/mock";
+import Testimonial from "../Testimonial/Testimonial";
 import "./style.css";
 
 const Testimonials = () => {
@@ -6,14 +8,17 @@ const Testimonials = () => {
             <div className="container">
                 <h2 className="section-title">What Our Clients Say</h2>
                 <div className="testimonials-section-grid">
-                    <div className="testimonial">
-                        <p>"The team exceeded our expectations with their expertise."</p>
-                        <h4>– John Doe</h4>
-                    </div>
-                    <div className="testimonial">
-                        <p>"Their services helped us achieve our business goals faster."</p>
-                        <h4>– Sarah Lee</h4>
-                    </div>
+                    {
+                        testimonials_home.map((testimonial, index) => {
+                            return (
+                                <Testimonial
+                                    key={index}
+                                    description={testimonial.description}
+                                    owner={testimonial.author}
+                                />
+                            )
+                        })
+                    }
                 </div>
             </div>
         </section>

@@ -1,3 +1,4 @@
+import CustomLink from '../../../ui/CustomLink/CustomLink';
 import './style.css';
 
 const Banner = () => {
@@ -6,8 +7,8 @@ const Banner = () => {
             <div className="text-center container">
                 <h1>Welcome to Our Agency</h1>
                 <p>Your success is our mission!</p>
-                <a href="services.html" className="btn btn-primary">Explore Services</a>
-                <a href="contact.html" className="btn btn-secondary">Contact Us</a>
+                <CustomLink href={'/services'} className="btn btn-primary" title={'Explore Services'} />
+                <CustomLink href={'/contact'} className="btn btn-secondary" title={'Contact Us'} />
             </div>
         </section>
     )

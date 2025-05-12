@@ -1,67 +1,79 @@
 export const navLinks = [
-  {  href: '/', name: 'Home' },
-  {  href: '/about', name: 'About us' },
-  {  href: '/services', name: 'Services' },
-  {  href: '/blogs', name: 'Blogs' },
-  {  href: '/testimonials', name: 'Testimonials' },
-  {  href: '/quotation', name: 'Request Quotation' },
-  {  href: '/privacy', name: 'Privacy Policy' },
-  {  href: '/terms', name: 'Terms & Conditions' },
-  {  href: '/contact', name: 'Contact Us' },
-];
+  { href: '/', name: 'Home' },
+  { href: '/about', name: 'About us' },
+  { href: '/services', name: 'Services' },
+  { href: '/blogs', name: 'Blogs' },
+  { href: '/testimonials', name: 'Testimonials' },
+  { href: '/quotation', name: 'Request Quotation' },
+  { href: '/privacy', name: 'Privacy Policy' },
+  { href: '/terms', name: 'Terms & Conditions' },
+  { href: '/contact', name: 'Contact Us' }
+]
 
 export const services_home = [
   {
     id: 1,
     title: 'Web Development',
     description: 'We build responsive and user-friendly websites.',
-    image: 'https://placehold.co/400'
+    image: 'https://placehold.co/400',
+    alt: 'Service 1',
+    href: '/service/1'
   },
   {
     id: 2,
     title: 'Digital Marketing',
     description: 'Boost your online presence with our marketing strategies.',
-    image: 'https://placehold.co/400'
+    image: 'https://placehold.co/400',
+    alt: 'Service 2',
+    href: '/service/2'
   },
   {
     id: 3,
     title: 'Graphic Design',
     description: 'Create stunning visuals for your brand.',
-    image: 'https://placehold.co/400'
+    image: 'https://placehold.co/400',
+    alt: 'Service 3',
+    href: '/service/3'
   }
 ]
 
 export const blogs = [
   {
+    id: 1,
     title: 'Blog Title 1',
+    alt: "Blog 1",
     image: 'https://placehold.co/400',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
-    link: 'blog-details.html'
+    link: '/blog/1'
   },
   {
+    id: 2,
     title: 'Blog Title 2',
+    alt: "Blog 1",
     image: 'https://placehold.co/400',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
-    link: 'blog-details.html'
+    link: '/blog/2'
   },
   {
+    id: 3,
     title: 'Blog Title 3',
+    alt: "Blog 1",
     image: 'https://placehold.co/400',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
-    link: 'blog-details.html'
+    link: '/blog/3'
   }
 ]
 
 export const testimonials_home = [
   {
-    quote: 'The team exceeded our expectations with their expertise.',
+    description: 'The team exceeded our expectations with their expertise.',
     author: 'John Doe'
   },
   {
-    quote: 'Their services helped us achieve our business goals faster.',
+    description: 'Their services helped us achieve our business goals faster.',
     author: 'Sarah Lee'
   }
 ]
@@ -92,7 +104,7 @@ export const services_page = [
     alt: 'Service 1',
     title: 'Service Title 1',
     description: 'Short description of the service in 2-3 lines.',
-    link: 'service-details.html',
+    link: 'service-details.html'
   },
   {
     id: 2,
@@ -100,10 +112,9 @@ export const services_page = [
     alt: 'Service 2',
     title: 'Service Title 2',
     description: 'Short description of the service in 2-3 lines.',
-    link: 'service-details.html',
-  },
-];
-
+    link: 'service-details.html'
+  }
+]
 
 export const testimonials_page = [
   {
