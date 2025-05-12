@@ -1,0 +1,28 @@
+
+/* Banner */
+.banner {
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+  color: white;
+  padding: 100px 0;
+}
+
+.banner h1 {
+  font-size: 3rem;
+}
+
+.banner .btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+}
+
+.banner .btn-primary {
+  background: var(--accent-color);
+}
+
+.banner .btn-secondary {
+  background: var(--highlight-color);
+}
+/* Banner */

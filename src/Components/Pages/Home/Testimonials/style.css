@@ -1,0 +1,19 @@
+/* Testimonials section */
+.testimonials-section {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials-section-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonials-section .testimonial {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Testimonials section */
