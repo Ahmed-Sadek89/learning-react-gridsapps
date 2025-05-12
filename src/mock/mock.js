@@ -82,18 +82,21 @@ export const about = [
   {
     id: 1,
     title: 'Our Mission',
-    description: 'To empower businesses with innovative solutions for success.'
+    description: 'To empower businesses with innovative solutions for success.',
+    className: "mission"
   },
   {
     id: 2,
     title: 'Our Vision',
     description:
-      'To be the leading agency in delivering high-quality solutions.'
+      'To be the leading agency in delivering high-quality solutions.',
+    className: "vision"
   },
   {
     id: 3,
     title: 'Our Values',
-    description: 'Integrity, Innovation, and Customer-Centricity.'
+    description: 'Integrity, Innovation, and Customer-Centricity.',
+    className: "values"
   }
 ]
 

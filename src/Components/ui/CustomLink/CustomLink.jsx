@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 const CustomLink = ({ href, title, className = "" }) => {
     return (
-        <a href={href} className={className}>{title}</a>
+        <Link to={href} className={className}>{title}</Link>
     )
 }
 export default CustomLink
