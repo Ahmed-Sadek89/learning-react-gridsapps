@@ -107,7 +107,7 @@ export const services_page = [
     alt: 'Service 1',
     title: 'Service Title 1',
     description: 'Short description of the service in 2-3 lines.',
-    link: 'service/1'
+    link: '/service/1'
   },
   {
     id: 2,
@@ -115,7 +115,7 @@ export const services_page = [
     alt: 'Service 2',
     title: 'Service Title 2',
     description: 'Short description of the service in 2-3 lines.',
-    link: 'service/2'
+    link: '/service/2'
   }
 ]
 
