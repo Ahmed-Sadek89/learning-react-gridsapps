@@ -7,6 +7,7 @@ import Service from './Pages/Service/Service';
 import Blogs from './Pages/Blogs/Blogs';
 import Blog from './Pages/Blog/Blog';
 import Testimonials from './Pages/Testimonials/Testimonials';
+import Quotation from './Pages/Quotation/Quotation';
 
 const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             {
                 path: "/testimonials",
                 element: <Testimonials />
+            },
+            {
+                path: "/quotation",
+                element: <Quotation />
             }
         ]
     }

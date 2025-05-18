@@ -1,0 +1,49 @@
+/* Quotation Page */
+.quotation {
+    padding: 50px 0;
+    color: var(--typography-color);
+}
+
+.quotation h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: var(--highlight-color);
+}
+
+.privacy {
+    min-height: 70vh;
+    padding-top: 60px;
+}
