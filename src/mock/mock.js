@@ -52,7 +52,7 @@ export const blogs = [
   {
     id: 2,
     title: 'Blog Title 2',
-    alt: 'Blog 1',
+    alt: 'Blog 2',
     image: 'https://placehold.co/400',
     auther: 'Jane Doe',
     created_at: 'October 25, 2024',
@@ -63,7 +63,7 @@ export const blogs = [
   {
     id: 3,
     title: 'Blog Title 3',
-    alt: 'Blog 1',
+    alt: 'Blog 3',
     image: 'https://placehold.co/400',
     auther: 'Jane Doe',
     created_at: 'October 25, 2024',
