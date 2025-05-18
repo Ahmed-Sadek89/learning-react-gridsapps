@@ -1,0 +1,20 @@
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery-grid img {
+  width: calc(33.33% - 10px);
+  border: 1px solid var(--neutral-color);
+}

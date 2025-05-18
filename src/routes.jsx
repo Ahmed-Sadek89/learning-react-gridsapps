@@ -1,4 +1,4 @@
-import {createBrowserRouter} from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Layout />,
-        errorElement: <h1>This page is not found | 404</h1>,
+        errorElement: <h1 style={{ textAlign: "center", width: "100%", margin: "20px 0xp" }}>This page is not found | 404</h1>,
         children: [
             {
                 path: "/",

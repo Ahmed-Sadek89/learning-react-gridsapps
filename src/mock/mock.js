@@ -41,8 +41,10 @@ export const blogs = [
   {
     id: 1,
     title: 'Blog Title 1',
-    alt: "Blog 1",
+    alt: 'Blog 1',
     image: 'https://placehold.co/400',
+    auther: 'Jane Doe',
+    created_at: 'October 25, 2024',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
     link: '/blog/1'
@@ -50,8 +52,10 @@ export const blogs = [
   {
     id: 2,
     title: 'Blog Title 2',
-    alt: "Blog 1",
+    alt: 'Blog 1',
     image: 'https://placehold.co/400',
+    auther: 'Jane Doe',
+    created_at: 'October 25, 2024',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
     link: '/blog/2'
@@ -59,8 +63,10 @@ export const blogs = [
   {
     id: 3,
     title: 'Blog Title 3',
-    alt: "Blog 1",
+    alt: 'Blog 1',
     image: 'https://placehold.co/400',
+    auther: 'Jane Doe',
+    created_at: 'October 25, 2024',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel ligula vitae ipsum volutpat sollicitudin.',
     link: '/blog/3'
@@ -83,20 +89,20 @@ export const about = [
     id: 1,
     title: 'Our Mission',
     description: 'To empower businesses with innovative solutions for success.',
-    className: "mission"
+    className: 'mission'
   },
   {
     id: 2,
     title: 'Our Vision',
     description:
       'To be the leading agency in delivering high-quality solutions.',
-    className: "vision"
+    className: 'vision'
   },
   {
     id: 3,
     title: 'Our Values',
     description: 'Integrity, Innovation, and Customer-Centricity.',
-    className: "values"
+    className: 'values'
   }
 ]
 
@@ -121,18 +127,21 @@ export const services_page = [
 
 export const testimonials_page = [
   {
+    id: 1,
     name: 'John Doe',
     quote:
       '“The team at Agency exceeded my expectations. Their attention to detail and professionalism were outstanding!”',
     image: 'https://placehold.co/400'
   },
   {
+    id: 2,
     name: 'Jane Smith',
     quote:
       '“Working with Agency has been a pleasure. They delivered our project on time and with exceptional quality.”',
     image: 'https://placehold.co/400'
   },
   {
+    id: 3,
     name: 'Michael Brown',
     quote:
       '“I highly recommend Agency for their innovative solutions and outstanding customer support!”',

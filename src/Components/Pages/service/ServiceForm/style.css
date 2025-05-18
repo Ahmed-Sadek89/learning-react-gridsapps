@@ -1,0 +1,44 @@
+
+.request-form {
+  margin-top: 50px;
+}
+
+.request-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.request-form .form-group {
+  margin-bottom: 20px;
+}
+
+.request-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: var(--typography-color);
+}
+
+.request-form input,
+.request-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--neutral-color);
+  border-radius: 5px;
+}
+
+.request-form button {
+  background: var(--highlight-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.request-form button:hover {
+  background: var(--primary-color);
+}
