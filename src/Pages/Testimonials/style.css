@@ -1,0 +1,14 @@
+/* Testimonials Page */
+.testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    color: var(--typography-color);
+    text-align: center;
+    min-height: 60vh;
+}
+
+.testimonials h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}

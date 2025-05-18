@@ -18,7 +18,7 @@ const Blog = () => {
         }
     } , [params.blog_id])
 
-    console.log({blog})
+    
     return (
         <section className="blog-details">
             <div className="container">
